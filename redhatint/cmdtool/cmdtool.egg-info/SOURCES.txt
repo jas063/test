@@ -1,0 +1,6 @@
+cmdtool.egg-info/PKG-INFO
+cmdtool.egg-info/SOURCES.txt
+cmdtool.egg-info/dependency_links.txt
+cmdtool.egg-info/entry_points.txt
+cmdtool.egg-info/requires.txt
+cmdtool.egg-info/top_level.txt

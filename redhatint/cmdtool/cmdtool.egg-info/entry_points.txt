@@ -1,0 +1,5 @@
+[console_scripts]
+display-html = cmdtool.script:display_html
+extract-text = cmdtool.script:extract_text
+generate-resource = cmdtool.script:generate_resource
+

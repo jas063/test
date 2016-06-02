@@ -1,0 +1,10 @@
+#!/home/jasmeet/redhattest/jarvis/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'cmdtool','console_scripts','generate_resource'
+__requires__ = 'cmdtool'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('cmdtool', 'console_scripts', 'generate_resource')()
+    )

@@ -1,0 +1,10 @@
+#!/home/jasmeet/redhattest/jarvis/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'script','console_scripts','script'
+__requires__ = 'script'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('script', 'console_scripts', 'script')()
+    )
